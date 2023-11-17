@@ -1,0 +1,49 @@
+@import url(https://fonts.googleapis.com/css2?family=Quicksand:wght@100;200;300;400;500;600;700&display=swap);
+
+@import url(./animations.css);
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+body {
+    background-color: #0A0A0A;
+    background: linear-gradient(143deg, rgba(27, 27, 27, 0.9576002275910365) 31%, rgba(20, 21, 31, 1) 70%);
+    color: #FFFFFF;
+    font-family: 'Quicksand', sans-serif;
+}
+
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #5C67DE;
+}
+
+.custom_navigation .swiper-button-prev::after,
+.custom_navigation .swiper-button-next::after {
+    font-size: 24px;
+    border-radius: 100%;
+    color: #fff;
+    min-width: 45px;
+    height: 45px;
+    background-color: #5C67DE;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.custom_navigation .swiper-button-next {
+    top: -12px !important;
+    right: 50px !important;
+}
+
+.custom_navigation .swiper-button-prev {
+    top: -12px !important;
+    left: auto !important;right: 110px !important;
+}
