@@ -3,11 +3,12 @@ import React from "react";
 import { Link } from "react-router-dom";
 import { HomeIcon, TrendIcon, FollowingIcon } from "./SvgIcon";
 import Playlist from "./Playlist";
+import Player from "./Player";
 
 const AsideBar = () => {
   return (
-    <aside className="p-2 w-1/5 space-y-2">
-      <div className="bg-[#1A1A1A] rounded-2xl py-4">
+    <aside className="p-2 w-1/5 space-y-2 sticky top-0 h-screen relative">
+      <div className="bg-[#1A1A1A] rounded-2xl py-4 relative">
         <ul>
           <li>
             <Link to={"/"}>
@@ -36,7 +37,8 @@ const AsideBar = () => {
         </ul>
       </div>
 
-      <Playlist/>
+      {/* <Playlist /> */}
+      <Player/>
     </aside>
   );
 };

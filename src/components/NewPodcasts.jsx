@@ -12,7 +12,7 @@ const NewPodcasts = () => {
     <>
       <div>
         <div className="p-1 custom_navigation relative overflow-hidden pt-7">
-          <h2 className="text-xl font-semibold px-2">New Podcasts</h2>
+          <h2 className="text-xl font-semibold">New Podcasts</h2>
           <Swiper
             modules={[Navigation, Pagination, Scrollbar, A11y]}
             spaceBetween={1}

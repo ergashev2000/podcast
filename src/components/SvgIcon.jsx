@@ -292,3 +292,41 @@ export const TimeIcon = () => {
     </svg>
   );
 };
+
+export const SeekTimeIcon = () => {
+  return (
+    <svg
+      width="17"
+      height="17"
+      fill="none"
+      stroke="currentColor"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      strokeWidth="2"
+      viewBox="0 0 24 24"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path d="m13 19 9-7-9-7v14z"></path>
+      <path d="m2 19 9-7-9-7v14z"></path>
+    </svg>
+  );
+}
+
+export const CloseIcon = () => {
+  return (
+    <svg
+      width="17"
+      height="17"
+      fill="none"
+      stroke="currentColor"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      strokeWidth="2"
+      viewBox="0 0 24 24"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path d="M18 6 6 18"></path>
+      <path d="m6 6 12 12"></path>
+    </svg>
+  );
+};

@@ -1,0 +1,54 @@
+.plyr__controls {
+    background: transparent !important;
+}
+
+/* hozirgi vaqti */
+.plyr__controls__item.plyr__time--current.plyr__time {
+    position: absolute !important;
+    top: -16px !important;
+    left: -5px !important;
+    color: #fff !important;
+    font-size: 10px !important;
+}
+
+/* umumiy vaqti */
+.plyr__controls__item.plyr__time--duration.plyr__time {
+    position: absolute !important;
+    top: -16px !important;
+    right: -2px !important;
+    color: #fff !important;
+    font-size: 10px !important;
+}
+
+/* progress line */
+.plyr__controls__item.plyr__progress__container {
+    position: absolute !important;
+    top: -35px !important;
+    width: 100% !important;
+    left: 48% !important;
+    transform: translateX(-50%) !important;
+}
+
+.plyr__controls__item.plyr__menu {
+    display: none !important;
+}
+
+.icon--not-pressed, .icon--pressed{
+    fill: #fff!important;
+}
+
+.plyr__controls__item.plyr__control {
+    background-color: #5C67DE !important;
+    position: absolute !important;
+    bottom: -30px !important;
+    left: 50% !important;
+    transform: translateX(-50%) !important;
+    border-radius: 100% !important;
+    padding: 13px !important;
+}
+
+.plyr__controls__item.plyr__volume {
+    position: absolute !important;
+    bottom: -65px !important;
+    left: -10px !important;
+}

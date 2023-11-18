@@ -1,6 +1,8 @@
 @import url(https://fonts.googleapis.com/css2?family=Quicksand:wght@100;200;300;400;500;600;700&display=swap);
 
 @import url(./animations.css);
+@import url(./player.css);
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -45,5 +47,6 @@ body {
 
 .custom_navigation .swiper-button-prev {
     top: -12px !important;
-    left: auto !important;right: 110px !important;
+    left: auto !important;
+    right: 110px !important;
 }

@@ -1,15 +1,16 @@
 import React from "react";
 
 import Img from "../assets/images/img.png";
+import Img2 from "../assets/images/maxresdefault.jpg";
 import { PlayIcon } from "./SvgIcon";
 
 const NewPodcastsCard = () => {
   return (
     <>
-      <div className="h-fit w-full max-w-[400px] relative hover:bg-[#1A1A1A] rounded-2xl hover:scale-105 cursor-pointer p-2 transition-all duration-500 border border-transparent  hover:border-gray-400 border-gray-700">
+      <div className="h-fit w-full max-w-[400px] relative hover:bg-[#1A1A1A] rounded-2xl hover:scale-105 cursor-pointer p-2 transition-all duration-500 border  hover:border-gray-400 border-gray-700">
         <div className="relative">
           <img
-            src={Img}
+            src={Img2}
             alt=""
             className="w-full h-full object-cover rounded-xl"
           />

@@ -9,7 +9,7 @@ const ChannelPodcasts = () => {
   return (
     <>
       <div className="custom_navigation w-full relative overflow-hidden py-7">
-        <h2 className="text-xl font-semibold px-2">Channels</h2>
+        <h2 className="text-xl font-semibold">Channels</h2>
         <Swiper
           modules={[Navigation, Pagination, Scrollbar, A11y]}
           spaceBetween={50}
@@ -30,7 +30,7 @@ const ChannelPodcasts = () => {
                 alt=""
                 className="w-full h-full object-cover rounded-full transition-all duration-300"
               />
-              <h3 className=" text-center absolute top-1/2 -translate-y-1/2 font-semibold left-1/2 -translate-x-1/2 w-full transition-all duration-300 opacity-0 pointer-events-none line-clamp-2 bg-[#5C67DE] bg-opacity-90">
+              <h3 className=" text-center absolute top-1/2 -translate-y-1/2 font-semibold left-1/2 -translate-x-1/2 w-full transition-all duration-300 opacity-0 pointer-events-none line-clamp-2 bg-[#3D0B62] bg-opacity-90">
                 <i>Xay Mayli</i>
               </h3>
             </div>
