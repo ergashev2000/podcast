@@ -4,8 +4,8 @@ import { Link } from "react-router-dom";
 import { HomeIcon, TrendIcon, FollowingIcon } from "./SvgIcon";
 import Playlist from "./Playlist";
 import Player from "./Player";
+import Logo from '../assets/images/logo.png'
 
-import Logo from '../assets/images/Logo.png'
 const AsideBar = () => {
   return (
     <aside className="w-1/5 sticky top-0 h-screen">
