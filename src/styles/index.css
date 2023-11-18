@@ -50,3 +50,33 @@ body {
     left: auto !important;
     right: 110px !important;
 }
+
+.notification {
+    display: block;
+    animation: notificationAnime 1s ease-out;
+    /* Specify the animation name, duration, and timing function */
+}
+
+@keyframes notificationAnime {
+    0% {
+        opacity: 0;
+        transform: translateX(50%);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateX(0%);
+    }
+}
+
+.thin_scroll::-webkit-scrollbar {
+    width: 4px;
+}
+
+.thin_scroll::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+.thin_scroll::-webkit-scrollbar-thumb {
+    background-color: #5C67DE;
+}

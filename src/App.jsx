@@ -1,20 +1,40 @@
-import React from "react";
-import AsideBar from "./components/AsideBar";
-import Header from "./components/Header";
-import Detail from "./page/detail";
-import Home from "./page/home";
+import { Routes, Route } from "react-router-dom";
+import Home from "./pages/Home";
+import Detail from "./pages/Detail";
+import Login from "./pages/Login";
+import PrivateRoutes from "./routes/PrivateRoutes";
 
-const App = () => {
+import MainLayout from "./layouts/MainLayout";
+
+function App() {
   return (
-    <div className="flex">
-      <AsideBar />
-      <div className="w-4/5 min-h-screen p-2">
-        <Header />
-        {/* <Detail /> */}
-        <Home/>
-      </div>
+    <div>
+      <Routes>
+        <Route element={<PrivateRoutes />}>
+          <Route
+            element={
+              <MainLayout>
+                <Home />
+              </MainLayout>
+            }
+            path="/"
+            exact
+          />
+          <Route
+            element={
+              <MainLayout>
+                <Detail />
+              </MainLayout>
+            }
+            path="/detail/:id"
+            exact
+          />
+        </Route>
+
+        <Route element={<Login />} path="/login" />
+      </Routes>
     </div>
   );
-};
+}
 
 export default App;

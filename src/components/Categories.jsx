@@ -15,7 +15,7 @@ const Categories = () => {
         </h2>
         <Swiper
           modules={[Navigation, Pagination, Scrollbar, A11y]}
-          spaceBetween={1}
+          spaceBetween={30}
           slidesPerView={3}
           navigation={{
             nextEl: ".swiper-button-next",
@@ -23,7 +23,7 @@ const Categories = () => {
           }}
           //   onSlideChange={() => console.log("slide change")}
           //   onSwiper={swiper => console.log(swiper)}
-          className="py-5 overflow-visible"
+          className="py-5 px-2 overflow-visible"
         >
           <SwiperSlide>
             <CategoryCard />
@@ -49,7 +49,7 @@ const Categories = () => {
         </h2>
         <Swiper
           modules={[Navigation, Pagination, Scrollbar, A11y]}
-          spaceBetween={1}
+          spaceBetween={30}
           slidesPerView={3}
           navigation={{
             nextEl: ".swiper-button-next",
@@ -57,7 +57,7 @@ const Categories = () => {
           }}
           //   onSlideChange={() => console.log("slide change")}
           //   onSwiper={swiper => console.log(swiper)}
-          className="py-5 overflow-visible"
+          className="py-5 px-2 overflow-visible"
         >
           <SwiperSlide>
             <CategoryCard />

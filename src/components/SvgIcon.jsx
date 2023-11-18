@@ -330,3 +330,66 @@ export const CloseIcon = () => {
     </svg>
   );
 };
+
+
+export const SettingsIcon = () => {
+  return (
+    <svg
+      width="20"
+      height="20"
+      fill="none"
+      stroke="currentColor"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      strokeWidth="1.5"
+      viewBox="0 0 24 24"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M12 4c.402 0 .796.03 1.182.087l.58 1.759c.51.145.992.352 1.441.612l1.669-.804c.59.454 1.115.988 1.56 1.587l-.834 1.654c.251.452.45.939.586 1.45l1.748.61a8.073 8.073 0 0 1-.019 2.227l-1.759.58c-.145.51-.352.992-.612 1.441l.804 1.669a8.044 8.044 0 0 1-1.587 1.56l-1.654-.834a6.36 6.36 0 0 1-1.45.586l-.61 1.748a8.073 8.073 0 0 1-2.227-.019l-.58-1.759a6.362 6.362 0 0 1-1.441-.612l-1.669.804a8.046 8.046 0 0 1-1.56-1.587l.834-1.654a6.36 6.36 0 0 1-.586-1.452l-1.749-.61a8.076 8.076 0 0 1 .02-2.225l1.759-.58c.145-.51.352-.992.612-1.441l-.804-1.669a8.047 8.047 0 0 1 1.587-1.56l1.654.834a6.36 6.36 0 0 1 1.452-.586l.61-1.749C11.298 4.023 11.647 4 12 4Z"
+        clipRule="evenodd"
+      ></path>
+      <path d="M12 15.429a3.429 3.429 0 1 0 0-6.858 3.429 3.429 0 0 0 0 6.858Z"></path>
+    </svg>
+  );
+};
+
+
+export const CoffeeIcon = () => {
+  return (
+    <svg
+      width="20"
+      height="20"
+      fill="none"
+      stroke="currentColor"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      strokeWidth="1.5"
+      viewBox="0 0 24 24"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path d="M16.571 12h1.143a2.286 2.286 0 0 1 0 4.572h-1.143V12ZM7.43 9.714h6.857A2.286 2.286 0 0 1 16.57 12v2.857A5.143 5.143 0 0 1 11.428 20h-1.142a5.143 5.143 0 0 1-5.143-5.143V12a2.286 2.286 0 0 1 2.286-2.286Z"></path>
+      <path d="M9.714 7.429V2.857"></path>
+      <path d="M12 7.429V5.143"></path>
+    </svg>
+  );
+};
+
+
+export const PersonIcon = () => {
+  return (
+    <svg
+      width="20"
+      height="20"
+      fill="none"
+      stroke="currentColor"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      strokeWidth="1.5"
+      viewBox="0 0 24 24"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path d="M12 2.857a3.429 3.429 0 0 1 3.429 3.429V8.57a3.429 3.429 0 0 1-6.858 0V6.286A3.429 3.429 0 0 1 12 2.857Zm8 16v-.832C20 14.383 15.787 12 12 12s-8 2.383-8 6.025v.832C4 19.488 4.512 20 5.143 20h13.714c.631 0 1.143-.512 1.143-1.143Z"></path>
+    </svg>
+  );
+};

@@ -6,9 +6,9 @@ import { PlayIcon } from "./SvgIcon";
 const CategoryCard = () => {
   return (
     <>
-      <div className=" relative max-w-xs w-full h-48 rounded-2xl overflow-hidden hover:shadow-gray-800 hover:shadow-lg transition-all duration-500 cursor-pointer">
-        <img src={Img} alt="" className="w-full rounded-2xl object-cover" />
-        <button className="absolute bottom-12 hover:bg-opacity-90 transition-all duration-500 right-2 w-10 h-10 flex justify-center items-center rounded-full bg-gray-400 bg-opacity-50">
+      <div className="hover:scale-105 relative max-w-xs w-full h-fit min-h-[50px] rounded-2xl overflow-hidden hover:shadow-gray-800 hover:shadow-lg transition-all duration-500 cursor-pointer">
+        <img src={Img} alt="" className="w-full h-full rounded-2xl object-cover block" />
+        <button className="absolute bottom-14 hover:bg-opacity-90 hover:bg-black transition-all duration-500 right-2 w-8 h-8 flex justify-center items-center rounded-full bg-gray-400 bg-opacity-50">
           <PlayIcon />
         </button>
         <div
@@ -24,8 +24,8 @@ const CategoryCard = () => {
             className="w-10 h-10 rounded-full object-cover"
           />
           <div className="flex flex-col">
-            <h3 className="font-semibold line-clamp-1">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Impedit consequuntur itaque doloribus iste, voluptas </h3>
-            <i className="text-sm">Channel nomi</i>
+            <h3 className="line-clamp-1 text-sm">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Impedit consequuntur itaque doloribus iste, voluptas </h3>
+            <i className="text-[14px]">Channel nomi</i>
           </div>
         </div>
       </div>

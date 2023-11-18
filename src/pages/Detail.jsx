@@ -17,8 +17,9 @@ const Detail = () => {
 
   return (
     <div className="mx-2">
-      <div className="bg-[url(../assets/images/banner.png)] w-full bg-center bg-cover h-52 p-2 rounded-xl relative flex flex-col justify-end">
-        <div className="p-4 space-y-2">
+      <div className="bg-[url(https://yt3.googleusercontent.com/zC6iC2ebXBdH2_oPEEo1E9VbTlnQU62CasCCdLEhAZfS2ciM0mXMxiCeC9dk6B26SRkJCG5X=w1707-fcrop64=1,00005a57ffffa5a8-k-c0xffffffff-no-nd-rj)] w-full bg-center bg-cover h-52 rounded-xl relative flex flex-col justify-end">
+        <div className="absolute bg-black bg-opacity-50 w-full h-full rounded-xl pointer-events-none"></div>
+        <div className="p-4 space-y-2 z-0">
           <h3 className="text-xl font-semibold">How to start podcast</h3>
           <p className="text-sm opacity-70">40,142 Monthly Listeners</p>
           <button className="bg-[#5C67DE] w-32 h-10 rounded text-white text-sm">
@@ -29,7 +30,7 @@ const Detail = () => {
           <img
             src="https://fakeimg.pl/300/"
             alt=""
-            className="w-12 h-12 rounded object-cover"
+            className="w-16 h-16 rounded-full object-cover"
           />
           <div>
             <h3 className="font-semibold">Ken Adam</h3>
@@ -41,7 +42,7 @@ const Detail = () => {
       <div className="flex justify-between gap-2">
         <div className="w-3/4">
           <div className="flex items-center gap-2 justify-between w-full py-4">
-            <div className="flex items-center gap-5">
+            <div className="flex items-center gap-5 pl-3">
               <button className="bg-[#5C67DE] rounded-full w-12 h-12 flex justify-center items-center">
                 <PauseIcon />
               </button>
@@ -106,50 +107,29 @@ const Detail = () => {
                 </tr>
               </thead>
               <tbody className="w-full">
-                <tr className="w-full h-16">
-                  <td>
+                <tr className="w-full h-16 border-t border-b  border-gray-500 ">
+                  <td className="py-2">
                     <button className="bg-[#5C67DE] rounded-full  w-8 h-8 flex justify-center items-center mx-auto">
                       <PlayIcon />
                     </button>
                   </td>
-                  <td className="h-14 px-3">
+                  <td className="h-14 px-3 py-2">
                     <img
                       src={podcastImg}
                       alt=""
                       className="w-full h-14 object-cover rounded"
                     />
                   </td>
-                  <td className="flex flex-col items-start gap-1">
+                  <td className="flex flex-col items-start gap-1 py-2">
                     <h4 className="text-sm font-semibold">
                       Find topic that tou love
                     </h4>
                     <p className="text-[14px] opacity-80">Ken Adams</p>
                   </td>
-                  <td className="text-[14px] opacity-90 text-center">202321</td>
-                  <td className="text-[14px] opacity-90 text-center">1.23</td>
+                  <td className="text-[14px] opacity-90 text-center">1230 listened</td>
+                  <td className="text-[14px] opacity-90 text-center">1 soat 20 min</td>
                 </tr>
-                <tr className="w-full h-16">
-                  <td>
-                    <button className="bg-[#5C67DE] rounded-full  w-8 h-8 flex justify-center items-center mx-auto">
-                      <PlayIcon />
-                    </button>
-                  </td>
-                  <td className="h-14 px-3">
-                    <img
-                      src="https://fakeimg.pl/300/"
-                      alt=""
-                      className="w-full h-14 object-cover rounded"
-                    />
-                  </td>
-                  <td className="flex flex-col items-start gap-1">
-                    <h4 className="text-sm font-semibold">
-                      Find topic that tou love
-                    </h4>
-                    <p className="text-[14px] opacity-80">Ken Adams</p>
-                  </td>
-                  <td className="text-[14px] opacity-90 text-center">202321</td>
-                  <td className="text-[14px] opacity-90 text-center">1.23</td>
-                </tr>
+             
               </tbody>
             </table>
           </div>

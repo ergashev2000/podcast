@@ -6,6 +6,7 @@ import "swiper/css";
 import "swiper/css/navigation";
 
 import NewPodcastsCard from "./NewPodcastsCard";
+import NewPadcastCardLoader from "./PlaceholderLoaders/NewPadcastCardLoader";
 
 const NewPodcasts = () => {
   return (
@@ -13,10 +14,17 @@ const NewPodcasts = () => {
       <div>
         <div className="p-1 custom_navigation relative overflow-hidden pt-7">
           <h2 className="text-xl font-semibold">New Podcasts</h2>
-          <Swiper
+          <div className="flex items-center gap-3 px-5">
+            {Array(3)
+              .fill(null)
+              .map((_, index) => (
+                <NewPadcastCardLoader key={ index} />
+              ))}
+          </div>
+          {/* <Swiper
             modules={[Navigation, Pagination, Scrollbar, A11y]}
             spaceBetween={1}
-            slidesPerView={3.3}
+            slidesPerView={3.2}
             navigation={{
               nextEl: ".swiper-button-next",
               prevEl: ".swiper-button-prev",
@@ -45,7 +53,7 @@ const NewPodcasts = () => {
             </SwiperSlide>
             <div className="swiper-button-next"></div>
             <div className="swiper-button-prev"></div>
-          </Swiper>
+          </Swiper> */}
         </div>
       </div>
     </>

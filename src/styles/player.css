@@ -37,6 +37,12 @@
     fill: #fff!important;
 }
 
+/* range to'lgan qismi */
+
+.plyr--full-ui input[type=range] {
+    color: #5C67DE!important;
+}
+
 .plyr__controls__item.plyr__control {
     background-color: #5C67DE !important;
     position: absolute !important;

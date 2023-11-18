@@ -3,14 +3,14 @@ import NewPodcasts from "../components/NewPodcasts";
 import ChannelPodcasts from "../components/ChannelPodcasts";
 import Categories from "../components/Categories";
 
-const home = () => {
+const Home = () => {
   return (
-    <div>
+    <>
       <NewPodcasts />
       <ChannelPodcasts />
       <Categories />
-    </div>
+    </>
   );
 };
 
-export default home;
+export default Home;
