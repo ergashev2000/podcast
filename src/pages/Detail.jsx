@@ -142,7 +142,7 @@ const Detail = () => {
               className={`bg-[url(../assets/images/img.png)] bg-center bg-cover w-full max-w-xs rounded-lg h-28 flex items-end p-2 relative overflow-hidden`}
             >
               <div className="absolute inset-0 bg-black bg-opacity-20"></div>
-
+              
               <div className=" flex items-center gap-2 w-full z-10">
                 <button className="bg-[#5C67DE] rounded-full w-8 h-8 flex justify-center items-center">
                   <PlayIcon />

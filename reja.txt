@@ -1,0 +1,9 @@
+19.11.2023
+allpodcast qismi:
+1. Barcha podcastlar chiqishi kerak joylanish vaqti bo'yicha.
+2. Search qilgan bor malumot chiqishi va davomidan hamma malumot kelishi kerak.
+3. Birinchi qatorda trand dagi channellar chiqishi kerak. carucel bo'lib
+
+account qismi:
+1. Qismlar: settings, securty, public, founderlikka ariza to'ldirish, follow podcast channellar.
+////////////////////////////////

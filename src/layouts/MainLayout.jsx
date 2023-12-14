@@ -7,12 +7,10 @@ const MainLayout = ({ children }) => {
   return (
     <>
       <div className="flex" id="main">
-        <Suspense>
-          <AsideBar />
-        </Suspense>
+        <AsideBar />
         <div className="w-4/5 min-h-screen p-2">
           <Header />
-          {children}
+          <Suspense fallback={'...'}>{children}</Suspense>
         </div>
       </div>
     </>

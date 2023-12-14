@@ -1,8 +1,9 @@
 // authContext.js
-import React, { createContext, useContext, useState } from "react";
+import React, { createContext, useState } from "react";
 
 const AuthContext = createContext();
 
+// eslint-disable-next-line react/prop-types
 const AuthProvider = ({ children }) => {
   const [isAuthenticated, setIsAuthenticated] = useState(false);
 
